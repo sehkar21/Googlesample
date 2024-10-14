@@ -54,6 +54,7 @@ public class GoogleSearchSteps {
     @After
     public void tearDown() {
         if (driver != null) {
+        	System.out.println("browser closed successfully!!!!");
             driver.quit();
         }
     }
